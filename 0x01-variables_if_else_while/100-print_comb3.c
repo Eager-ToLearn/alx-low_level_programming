@@ -15,9 +15,11 @@ int main(void)
 	for (n = 48; n <= 56; n++)
 
 	{
-		for (i = 49; i < 57; i++)
-		{	if (i > n)
-			
+		for (i = 49; i <= 57; i++)
+		{
+			if (i > n)
+			{
+
 				putchar(n);
 				putchar(i);
 				if (n != 56 || i != 57)
@@ -26,7 +28,7 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
-	}	
+	}
 			}
 	}
 	putchar('\n');
