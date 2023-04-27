@@ -2,8 +2,9 @@
 
 /**
  *_islower -  checks for lowercase character.
- *Returns 1 if c is lowercase
+ *Returns 1 if 'c' is lowercase
  *Returns 0 otherwise
+ *@c: ASCII code
  * Return: Always 0 (Success)
  */
 
