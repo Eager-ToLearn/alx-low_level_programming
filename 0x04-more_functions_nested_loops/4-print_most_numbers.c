@@ -10,15 +10,15 @@
 void print_numbers(void)
 
 {
-	int num;
+	int c;
 
-	for (num = 48; num < 58; num++)
+	for (c = 48; c < 58; c++)
 	{
-		if (num != 50)
+		if (c != 50)
 		{
-			if (num != 52)
+			if (c != 52)
 			{
-			_putchar(num);
+			_putchar(c);
 			}
 		}
 	}
