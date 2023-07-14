@@ -3,7 +3,6 @@
 /**
  * main -Print an output without using printf using puts
  *
- * Return: 0
  * Return:0
 */
 
